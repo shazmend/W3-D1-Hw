@@ -1,0 +1,569 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg bg-body-light"> 
+        <!-- أدور طريقه احط خط بوردر للناف -->
+    <div class="d-flex ms-3">
+        <!-- Logo -->
+        <a class="navbar-brand" href="#"><img src="https://geeks-react.netlify.app/static/media/logo.e22c846d87ff5a1252df471397badc6d.svg"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- Drop Down Nav -->
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+            <!-- Browse -->
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Browse
+            </a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Web Development</a></li>
+                <li><a class="dropdown-item" href="#">Design</a></li>
+                <li><a class="dropdown-item" href="#">Mobile App</a></li>
+                <li><a class="dropdown-item" href="#">IT Software</a></li>
+                <li><a class="dropdown-item" href="#">Markting</a></li>
+                <li><a class="dropdown-item" href="#">Music</a></li>
+                <li><a class="dropdown-item" href="#">Life Style</a></li>
+                <li><a class="dropdown-item" href="#">Business</a></li>
+                <li><a class="dropdown-item" href="#">Photography</a></li>
+            </ul>
+            </li>
+
+            <!-- Landings -->
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Landings
+            </a>
+            <ul class="dropdown-menu">
+                <li class="dropdown-item-text text-secondary">Landings</li>
+                <li><a class="dropdown-item" href="#">Home Academy</a></li>
+                <li><a class="dropdown-item" href="#">Courses</a></li>
+                <li><a class="dropdown-item" href="#">Lead Course</a></li>
+                <li><a class="dropdown-item" href="#">Requist Access</a></li>
+                <li><a class="dropdown-item" href="#">SaaS</a></li>
+                <li><a class="dropdown-item" href="#">Job Listing</a></li>
+            </ul>
+            </li>
+
+            <!-- Pages -->
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Pages
+            </a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Courses</a></li>
+                <li><a class="dropdown-item" href="#">Paths</a></li>
+                <li><a class="dropdown-item" href="#">Blog</a></li>
+                <li><a class="dropdown-item" href="#">Career</a></li>
+                <li><a class="dropdown-item" href="#">Job</a></li>
+                <li><a class="dropdown-item" href="#">Specialty</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">About</a></li>
+                <li><a class="dropdown-item" href="#">Help Center</a></li>
+                <li><a class="dropdown-item" href="#">Pricing</a></li>
+                <li><a class="dropdown-item" href="#">Compare Plan</a></li>
+                <li><a class="dropdown-item" href="#">Contact</a></li>
+            </ul>
+            </li>
+
+            <!-- Acounts -->
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Acounts
+            </a>
+            <ul class="dropdown-menu">
+                <li class="dropdown-item-text text-secondary">Accounts</li>
+                <li><a class="dropdown-item" href="#">Instructor</a></li>
+                <li><a class="dropdown-item" href="#">Students</a></li>
+                <li><a class="dropdown-item" href="#">Admin</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Sign In</a></li>
+                <li><a class="dropdown-item" href="#">Sign Up</a></li>
+                <li><a class="dropdown-item" href="#">Forgot Password</a></li>
+                <li><a class="dropdown-item" href="#">Edit Profile</a></li>
+                <li><a class="dropdown-item" href="#">Security</a></li>
+                <li><a class="dropdown-item" href="#">Social Profiles</a></li>
+                <li><a class="dropdown-item" href="#">Notifications</a></li>
+                <li><a class="dropdown-item" href="#">Privacy Settings</a></li>
+                <li><a class="dropdown-item" href="#">Delete Profiles</a></li>
+                <li><a class="dropdown-item" href="#">Linked Accounts</a></li>
+            </ul>
+            </li>
+            
+            <!-- Dots -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-menu" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <b>...</b>
+                </a>
+                <ul class="dropdown-menu">
+                    <li class="dropdown-item"href="#">
+                        <p><b>Documintations</b></p>
+                        <p>Brows the all documentation</p>
+                    </li>
+                    <li class="dropdown-item"href="#">
+                    <p><b>Changelog</b></p>
+                    <p>See What's new</p>
+                    </li>
+                </ul>
+                </li>
+            
+        </ul>
+        <form class="d-flex ms-5" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        </form>
+        </div>
+        <!-- أجرب أسوي زر للدارك مود -->
+    </div>
+    </nav>
+    <!-- NavBar End -->
+    
+    <!-- First Section -->
+    <div class="container d-flex justify-content-evenly mt-5">
+
+        <!-- Lift Side -->
+        <div class="LiftSide d-flex flex-column justify-content-center" style="max-width: 400px;">
+            <h1><b>Become a Vanilla JavaScript Developer</b></h1>
+            <p>In this tutorial, we are going to learn about JavaScript (Vanilla JS) 
+                - for building incredible, powerful JavaScript applications.</p>
+
+            <div class="Details text-secondary">
+                <p class="Details2 ">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-clock" viewBox="0 0 16 16">
+                        <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                        <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+                      </svg>
+                      4 Hours
+                </p>
+                <p class="Details2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-camera-reels" viewBox="0 0 16 16">
+                        <path d="M6 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM1 3a2 2 0 1 0 4 0 2 2 0 0 0-4 0z"/>
+                        <path d="M9 6h.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 7.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 16H2a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h7zm6 8.73V7.27l-3.5 1.555v4.35l3.5 1.556zM1 8v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1z"/>
+                        <path d="M9 6a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM7 3a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+                    </svg>
+                    12 Videos
+                </p>
+                <p class="Details2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-people" viewBox="0 0 16 16">
+                        <path d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8Zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022ZM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816ZM4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0Zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4Z"/>
+                      </svg>
+                    10,234+ Enrolled
+                </p>
+            </div>
+
+            <button type="button" class="btn btn-success py-2" style="max-width: 150px;">Watch Preview</button>
+
+            
+
+        </div>
+        <!-- Lift Side End -->
+
+        <!-- Right Side -->
+        <div class="card bg-light shadow p-3 mb-5 bg-body-tertiary rounded"style="max-width: 500px;">
+            <article class="card-body mx-auto" style="max-width: 400px;">
+                <h4 class="card-title mt-3 text-center">Create Free Account</h4>
+                <p>
+                    <!-- Google -->
+                    <a href="" class="btn btn-block btn-Google"> <i class="fab fa-Google"></i>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#e55656" class="bi bi-google google-color" viewBox="0 0 16 16">
+                            <path d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z"/>
+                        </svg>
+                        Google</a>
+                    
+                    <!-- Twittwe -->
+                    <a href="" class="btn btn-block btn-twitter"> <i class="fab fa-twitter"></i> 
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill=" #10a6e9" class="bi bi-twitter twitter-color" viewBox="0 0 16 16">
+                            <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                        </svg>
+                        Twitter</a>
+                    
+                    <!-- Facebook -->
+                    <a href="" class="btn btn-block btn-facebook"> <i class="fab fa-facebook-f"></i>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#754ffe" class="bi bi-facebook facebook-color" viewBox="0 0 16 16">
+                            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                        </svg> 
+                        Facebook</a>
+                </p>
+                <p class="divider-text">
+                    <span class="bg-light">OR</span>
+                </p>
+                <form>
+                
+                <div class="form-group input-group">
+                    <input name="" class="form-control" placeholder="Email" type="email">
+                </div> <!-- form-group// -->
+                <div class="form-group input-group">
+                    <input class="form-control mt-3" placeholder="password" type="password">
+                </div> <!-- form-group// -->                                    
+                <div class="d-grid gap-2 col-12 mx-auto ">
+                    <button type="submit" class=" btn_color btn  btn-block mt-3"> start courses for Free </button>
+                </div> <!-- form-group// --> 
+                <hr class="m-5">     
+                <p class="text-center .fs-6">By continuing you accept the <b>Terms of Use, Privacy Policy</b>, and <b>Data Policy</b></p>                                                                 
+            </form>
+            </article>
+        </div> 
+        <!-- Right Side End-->
+        
+    </div>
+    <!-- First Section End-->
+
+    <!-- Advantages -->
+    <div class="Advantages d-flex justify-content-center justify-content-evenly m-5">
+        <p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#ffeeda" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+              </svg>
+              <b>Shareable Certificate</b>
+        </p>
+        <p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#ffeeda" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+              </svg>
+              <b>Flexible Deadlines</b>
+        </p>
+        <p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#ffeeda" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+              </svg>
+              <b>100% Online Courses</b>
+        </p>
+        <p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#ffeeda" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+              </svg>
+              <b>Approx.24 hours</b>
+        </p>
+    </div>
+     <!-- Advantages End-->
+
+     <!-- Second Section -->
+     <div class="SecondSection d-flex flex-column align-items-center text-center justify-content-center" >
+            <div class="SecondSectionText d-flex flex-column ali" style="max-width: 700px;">
+                <p class="mt-5">COURSE DESCRIPTION</p>
+                <h1 class="text-dark">What will you learn?</h1>
+                <p class="text-secondary fs-5">Vanilla JS is a fast, lightweight, cross-platformframework for building incredible,
+                    powerful JavaScript applications.</p>
+            </div>
+
+            <!-- Cards -->
+            <div class="row row-cols-1 row-cols-md-2 g-4 ms-5 p-5" >
+                <div class="col">
+                    <div class="card" style="width: 30rem;">
+                        <div class="card-body">
+                            <div class="Title d-flex justify-content-evenly">
+                                <div class="Imgbg">
+                                    <img src="https://geeks-react.netlify.app/static/media/feature-icon-1.d81a3fc1e4004c4b67e31168c1898c64.svg">
+                                </div>
+                                <h5 class="card-title mt-4">
+                                    <b>Introduction to JavaScript</b></h5>
+                            </div>
+
+                            <div class="Subtitle d-flex fs-6 justify-content-evenly mt-3">
+                                <p class="card-subtitle mb-2 text-dark">COURSES - 1</p>
+                                <p class="card-subtitle mb-2 text-secondary">6 LESSONS</p>
+                                <p class="card-subtitle mb-2 text-secondary ">1 HOUR 12 MIN</p>
+                            </div>
+
+                            <div class="cardDetails d-flex flex-column align-items-start m-3">
+                                <p class="card-text text-secondary text-start">In et tempus dui, in porta dolor. Donec molestie a purus ut interdum.
+                                    Donec quis felis dignissim, luctus libero ornare</p>
+                                <a href="#" class="card-link">View Chapter Details +</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 30rem;">
+                        <div class="card-body">
+                            <div class="Title d-flex justify-content-evenly">
+                                <div class="Imgbg">
+                                    <img src="https://geeks-react.netlify.app/static/media/feature-icon-2.35b3b77394deb3cd7ebf78b8464fab62.svg">
+                                </div>
+                                <h5 class="card-title mt-4">
+                                    <b>JavaScript Beginning</b></h5>
+                            </div>
+
+                            <div class="Subtitle d-flex fs-6 justify-content-evenly mt-3">
+                                <p class="card-subtitle mb-2 text-dark">COURSES - 2</p>
+                                <p class="card-subtitle mb-2 text-secondary">4 LESSONS</p>
+                                <p class="card-subtitle mb-2 text-secondary ">32 MIN</p>
+                            </div>
+
+                            <div class="cardDetails d-flex flex-column align-items-start m-3">
+                                <p class="card-text text-secondary text-start">Malesuada fames ac turpis egesta mpor tempus tincidunt. 
+                                    Aliquam congue lacus ac tellus consectetur malesuada.</p>
+                                <a href="#" class="card-link">View Chapter Details +</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 30rem;">
+                        <div class="card-body">
+                            <div class="Title d-flex justify-content-evenly">
+                                <div class="Imgbg">
+                                    <img src="https://geeks-react.netlify.app/static/media/feature-icon-3.7cfb20a1964dfcd934da6b2267d68bc9.svg">
+                                </div>
+                                <h5 class="card-title mt-4">
+                                    <b>Variables and Constants</b></h5>
+                            </div>
+
+                            <div class="Subtitle d-flex fs-6 justify-content-evenly mt-3">
+                                <p class="card-subtitle mb-2 text-dark">COURSES - 3</p>
+                                <p class="card-subtitle mb-2 text-secondary">8 LESSONS</p>
+                                <p class="card-subtitle mb-2 text-secondary ">10 MIN</p>
+                            </div>
+
+                            <div class="cardDetails d-flex flex-column align-items-start m-3">
+                                <p class="card-text text-secondary text-start">Aliquam pulvinar eros a dictur vitae diam imperdiet, ornare turpis vequet elit nec,
+                                     imperdiet lectuna liquam qs.</p>
+                                <a href="#" class="card-link">View Chapter Details +</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 30rem;">
+                        <div class="card-body">
+                            <div class="Title d-flex justify-content-evenly">
+                                <div class="Imgbg">
+                                    <img src="https://geeks-react.netlify.app/static/media/feature-icon-4.4e54d5c3aeac9d9d151971629ba18abf.svg">
+                                </div>
+                                <h5 class="card-title mt-4">
+                                    <b>Types and Operators</b></h5>
+                            </div>
+
+                            <div class="Subtitle d-flex fs-6 justify-content-evenly mt-3">
+                                <p class="card-subtitle mb-2 text-dark">COURSES - 4</p>
+                                <p class="card-subtitle mb-2 text-secondary">10 LESSONS</p>
+                                <p class="card-subtitle mb-2 text-secondary ">32 MIN</p>
+                            </div>
+
+                            <div class="cardDetails d-flex flex-column align-items-start m-3">
+                                <p class="card-text text-secondary text-start">In et tempus dui, in porta dolor. Donec molestie a purus ut interdum.
+                                    Donec quis felis dignissim, luctus libero ornare</p>
+                                <a href="#" class="card-link">View Chapter Details +</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>       
+     </div>
+     <!-- Second Section End-->
+
+      <!-- Third Section -->
+      <div class="ThirdSection d-flex justify-content-center justify-content-evenly" style="height: 80vh;">
+        <!-- Left -->
+        <div class="ThirdSectionLeft mt-5">
+            <div class="ThirdSectionText d-flex flex-column"style="width: 25rem;">
+                <p style="color: #754ffe"><b>YOUR INSTRUCTOR</b></p>
+                <h1 class="text-dark">Hi, I’m <span style="color: #754ffe">James Davies</span>,
+                    I will be taking you through lessons.</h1>
+                <p class="text-secondary fs-5">Create beautiful website with this Geeks UI template. 
+                    Get started building a site today.</p>
+            </div>
+            <hr>
+            <div class="Numbers d-flex">
+                <div class="NumbersDetails d-flex flex-column">
+                    <h2 class="text-dark ">45</h2>
+                    <p class="text-secondary fs-6 ">Lessons</p>
+                </div>
+                <div class="NumbersDetails d-flex flex-column">
+                    <h2 class="text-dark ms-5 ">10,500+</h2> 
+                    <p class="text-secondary fs-6 ms-5 ">Students</p>  
+                </div>
+                <div class="NumbersDetails d-flex flex-column">
+                    <h2 class="text-dark ms-5">12+</h2> 
+                    <p class="text-secondary fs-6 ms-5 ">Learning Hours</p>  
+                </div>
+            </div>
+        </div>
+        <!-- Right -->
+        <div class="ThirdSectionRight mt-5">
+            <img src="https://geeks-react.netlify.app/static/media/instructor-img.1ed9cc40ee4734876e12.png"> 
+        </div>
+
+      </div>
+       <!-- Third Section End-->
+
+       <!-- Forth Section -->
+        <div class="ForthSection d-flex flex-column align-items-center mt-5">
+            <p style="color: #754ffe;">TRUSTED BY TOP-TIER PRODUCT COMPANIES</p>
+            <div class="ForthSectionImgs d-grid">
+                <div class="row">
+                    <div class="col m-3">
+                    <img src="https://geeks-react.netlify.app/static/media/gray-logo-stripe.6b556d06bcc209f1c051bbdb399131f0.svg">
+                    </div>
+                    <div class="col m-3">
+                    <img src="https://geeks-react.netlify.app/static/media/gray-logo-airbnb.5908aac3e8062333869d580f4b2f3d59.svg">
+                    </div>
+                    <div class="col m-3">
+                    <img src="https://geeks-react.netlify.app/static/media/gray-logo-discord.2e0bae69d24feccf4efdd3f80746031b.svg">
+                    </div>
+                    <div class="col m-3">
+                    <img src="https://geeks-react.netlify.app/static/media/gray-logo-intercom.870602b99ded665ecf0c2d5b2ffeb8c4.svg">
+                    </div>
+                    <div class="col m-3">
+                    <img src="https://geeks-react.netlify.app/static/media/gray-logo-pinterest.928eaa29223a809cc5554847139d26a9.svg">
+                    </div>
+                    <div class="col m-3">
+                    <img src="https://geeks-react.netlify.app/static/media/gray-logo-netflix.a47db6eaf2de7327844f27eb230da39c.svg">
+                    </div>
+                </div>
+            </div>
+        </div>
+       <!-- Forth Section End-->
+       <!-- Footer -->
+
+        <footer class="text-center text-lg-start bg-white text-muted">
+            <!-- Section: Social media -->
+            <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+            <!-- Right -->
+            <div>
+                <a href="" class="me-4 link-secondary">
+                <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="" class="me-4 link-secondary">
+                <i class="fab fa-twitter"></i>
+                </a>
+                <a href="" class="me-4 link-secondary">
+                <i class="fab fa-google"></i>
+                </a>
+                <a href="" class="me-4 link-secondary">
+                <i class="fab fa-instagram"></i>
+                </a>
+                <a href="" class="me-4 link-secondary">
+                <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="" class="me-4 link-secondary">
+                <i class="fab fa-github"></i>
+                </a>
+            </div>
+            <!-- Right -->
+            </section>
+            <!-- Section: Social media -->
+        
+            <!-- Section: Links  -->
+            <section class="">
+            <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                    <!-- Content -->
+                    <img src="https://geeks-react.netlify.app/static/media/logo.e22c846d87ff5a1252df471397badc6d.svg">
+                    <p class="mt-4 fs-6">
+                        Geek is feature-rich components and beautifully
+                         Bootstrap UIKit for developers, built with bootstrap responsive framework.
+                    </p>
+                    <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="gray" class="bi bi-facebook" viewBox="0 0 16 16">
+                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                      </svg>
+                    </a>
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="gray" class="bi bi-twitter" viewBox="0 0 16 16">
+                            <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                          </svg>
+                    </a>
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="gray" class="bi bi-instagram" viewBox="0 0 16 16">
+                            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                          </svg>
+                    </a>
+
+                </div>
+                <!-- Grid column -->
+        
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase text-dark fw-bold mb-4">
+                        Company
+                    </h6>
+                    <p>
+                    <a href="#!" class="text-reset">About</a>
+                    </p>
+                    <p>
+                    <a href="#!" class="text-reset">Pricing</a>
+                    </p>
+                    <p>
+                    <a href="#!" class="text-reset">Blog</a>
+                    </p>
+                    <p>
+                    <a href="#!" class="text-reset">Careers</a>
+                    </p>
+                    <p>
+                        <a href="#!" class="text-reset">Contact</a>
+                        </p>
+                </div>
+                <!-- Grid column -->
+        
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase text-dark fw-bold mb-4">
+                        Support
+                    </h6>
+                    <p>
+                    <a href="#!" class="text-reset">Help and Spport</a>
+                    </p>
+                    <p>
+                    <a href="#!" class="text-reset">Become Instructor</a>
+                    </p>
+                    <p>
+                    <a href="#!" class="text-reset">Get tha app</a>
+                    </p>
+                    <p>
+                    <a href="#!" class="text-reset">FAQ's</a>
+                    </p>
+                    <p>
+                        <a href="#!" class="text-reset">Tutorial</a>
+                    </p>
+                </div>
+                <!-- Grid column -->
+        
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase text-dark fw-bold mb-4">Get in touch</h6>
+                    <p><i class="fas fa-home text-secondary "></i>339 McDermott Points Hettingerhaven,
+                         NV 15283</p>
+                    <p>
+                    <i class="fas fa-envelope  text-secondary"></i>
+                    Email:<span class="ms-1" style="color: #754ffe">support@geeksui.com</span>
+                    </p>
+                    <p><i class="fas fa-phone text-secondary"></i> Phone:<b>(000) 123 456 789</b></p>
+                    <img class="fas fa-print  text-secondary" src="https://geeks-react.netlify.app/static/media/appstore.b464860c93223b3fc15fc7d026bcdca0.svg" width="100px" >
+                    <img class="fas fa-print text-secondary" src="https://geeks-react.netlify.app/static/media/playstore.f23c3dcbde32e767203274d4b1749cc7.svg" width="100px" >
+                </div>
+                <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+            </section>
+            <!-- Section: Links  -->
+        
+            <!-- Copyright -->
+            <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+            © 2021 Copyright:
+            <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+       <!-- Footer End -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>
